@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_UnityRos2.1141616183.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_UnityRos2.1296800804.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -10,7 +10,145 @@
         <e p="Editor" t="Include">
           <e p="ROS" t="Include">
             <e p="BuildRos.cs" t="Include" />
+            <e p="Navigation" t="Include">
+              <e p="MoveBaseGoalPublisherEditor.cs" t="Include" />
+            </e>
           </e>
+        </e>
+        <e p="FM_ExhibitionToolPack" t="Include">
+          <e p="Common" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Events" t="Include">
+                <e p="UnityEventClass.cs" t="Include" />
+              </e>
+              <e p="Loom.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FMCore" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="FMDesktop" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="FMDesktopMask.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="FMTurboJpeg" t="Include">
+                <e p="Mac" t="Include">
+                  <e p="ReadMe_Mac.txt" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AudioDecoder_Editor.cs" t="Include" />
+                <e p="AudioEncoder_Editor.cs" t="Include" />
+                <e p="FMBuildPostProcessor.cs" t="Include" />
+                <e p="GameViewDecoder_Editor.cs" t="Include" />
+                <e p="GameViewEncoder_Editor.cs" t="Include" />
+                <e p="MicEncoder_Editor.cs" t="Include" />
+              </e>
+              <e p="EnergySaving" t="Include">
+                <e p="EnergySavingManager.cs" t="Include" />
+                <e p="FPSManager.cs" t="Include" />
+              </e>
+              <e p="Features" t="Include">
+                <e p="DemoObjectAnimation.cs" t="Include" />
+                <e p="DemoScreenshot.cs" t="Include" />
+                <e p="FillCameraBackground.cs" t="Include" />
+                <e p="GyroController.cs" t="Include" />
+                <e p="Interactive" t="Include">
+                  <e p="PointerEvents.cs" t="Include" />
+                  <e p="TouchVisualization.cs" t="Include" />
+                  <e p="WorldSpaceButton" t="Include">
+                    <e p="OffScreenTrigger.cs" t="Include" />
+                    <e p="WorldToScreenSpace.cs" t="Include" />
+                  </e>
+                  <e p="ZoomManager.cs" t="Include" />
+                </e>
+                <e p="SceneManager_helper.cs" t="Include" />
+                <e p="TargetProjectionMatrix.cs" t="Include" />
+                <e p="WebcamManager.cs" t="Include" />
+              </e>
+              <e p="Mapper" t="Include">
+                <e p="AudioDecoder.cs" t="Include" />
+                <e p="AudioEncoder.cs" t="Include" />
+                <e p="GameViewDecoder.cs" t="Include" />
+                <e p="GameViewEncoder.cs" t="Include" />
+                <e p="MicEncoder.cs" t="Include" />
+              </e>
+              <e p="Networking" t="Include">
+                <e p="ConnectionDebugText.cs" t="Include" />
+                <e p="NetworkAction" t="Include">
+                  <e p="NetworkActionClient.cs" t="Include" />
+                  <e p="NetworkActionDemo.cs" t="Include" />
+                  <e p="NetworkActionServer.cs" t="Include" />
+                  <e p="NetworkActions_Debug.cs" t="Include" />
+                </e>
+                <e p="NetworkDiscovery.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CircleShader.shader" t="Include" />
+              <e p="FMChromaKey.shader" t="Include" />
+              <e p="FMCubemapToEquirect.shader" t="Include" />
+              <e p="FMUnlitDoubleSide.shader" t="Include" />
+              <e p="multiTiles2x2.shader" t="Include" />
+              <e p="multiTiles4x1.shader" t="Include" />
+              <e p="multiTiles4x4.shader" t="Include" />
+            </e>
+          </e>
+          <e p="FMNetwork" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Demo" t="Include">
+                <e p="FMNetwork_Demo.cs" t="Include" />
+                <e p="FMNetwork_DemoAnimation.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="FMNetworkManager_Editor.cs" t="Include" />
+              </e>
+              <e p="FMClient.cs" t="Include" />
+              <e p="FMNetworkManager.cs" t="Include" />
+              <e p="FMServer.cs" t="Include" />
+              <e p="LargeFileDecoder.cs" t="Include" />
+              <e p="LargeFileEncoder.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FMWebSocket" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="WebsocketSharp" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="FMSocketIOManager_Editor.cs" t="Include" />
+              </e>
+              <e p="FMWebSocketNetwork_debug.cs" t="Include" />
+              <e p="SocketIO" t="Include">
+                <e p="FM_Event" t="Include">
+                  <e p="Ack.cs" t="Include" />
+                  <e p="SocketIOEvent.cs" t="Include" />
+                </e>
+                <e p="FM_IO" t="Include">
+                  <e p="Decoder.cs" t="Include" />
+                  <e p="Encoder.cs" t="Include" />
+                  <e p="FMSocketIOManager.cs" t="Include" />
+                  <e p="Parser.cs" t="Include" />
+                  <e p="SocketIOComponent.cs" t="Include" />
+                  <e p="SocketIOComponentWebGL.cs" t="Include" />
+                  <e p="SocketIOException.cs" t="Include" />
+                </e>
+                <e p="FM_Packet" t="Include">
+                  <e p="EnginePacketType.cs" t="Include" />
+                  <e p="Packet.cs" t="Include" />
+                  <e p="SocketPacketType.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Third-Party Notices.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="ROS" t="Include">

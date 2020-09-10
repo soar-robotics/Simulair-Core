@@ -11,10 +11,11 @@ if platform.system() == 'Windows':
         os.environ['PATH'] = os.environ['PATH'] + ';' + library_path
 else:
     library_path = build_directory + '/RosApplication_Data/Plugins'
-    if 'LD_LIBRARY_PATH' in os.environ:
-        os.environ['LD_LIBRARY_PATH'] = os.environ['LD_LIBRARY_PATH'] + ':' + library_path
+    os.environ['LD_LIBRARY_PATH'] = library_path #reset the LD_LIBRARY_PATH anyways. Otherwise it results in conflict 
+    if 'LD_PRELOAD' in os.environ:
+        os.environ['LD_PRELOAD'] += (":" + "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1")
     else:
-        os.environ['LD_LIBRARY_PATH'] = library_path
+        os.environ['LD_PRELOAD'] = "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
 
 
 if platform.system() == 'Windows':

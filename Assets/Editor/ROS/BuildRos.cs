@@ -1,6 +1,10 @@
 // C# example.
+
+using System;
 using UnityEditor;
+
 using System.Diagnostics;
+using UnityEngine;
 
 public class ScriptBatch
 {
@@ -9,7 +13,7 @@ public class ScriptBatch
     {
         // Get filename.
         string path = EditorUtility.SaveFolderPanel("Choose Location of Built Game", "", "");
-        string[] levels = new string[] { "Assets/Scenes/RosExample.unity"};
+        string[] levels = new string[] { "Assets/Scenes/RosNavigationExample.unity"};
 
         // Build player.
         BuildPipeline.BuildPlayer(levels, path + "/RosApplication.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);
@@ -27,14 +31,22 @@ public class ScriptBatch
         // FIXME(sam): creates folder for some reason... Allow setting name of game?
         string path = EditorUtility.SaveFolderPanel("Choose Location of Built ROS Application", "", "");
         // string path = System.IO.Path.GetDirectoryName(file_path);
-        string[] levels = new string[] { "Assets/Scenes/RosExample.unity"};
+        string[] levels = new string[] { "Assets/Scenes/RosNavigationExample.unity"};
 
         // Build player.
         BuildPipeline.BuildPlayer(levels, path + "/RosApplication", BuildTarget.StandaloneLinux64, BuildOptions.None);
 
         // Copy a file from the project folder to the build folder, alongside the built game.
-        FileUtil.CopyFileOrDirectory("Assets/Resources/start_player.py", path + "/start_player.py");
-        FileUtil.CopyFileOrDirectory("Assets/Resources/start_player.bash", path + "/start_player.bash");
+        try
+        {
+            FileUtil.CopyFileOrDirectory("Assets/Resources/start_player.py", path + "/start_player.py");
+            FileUtil.CopyFileOrDirectory("Assets/Resources/start_player.bash", path + "/start_player.bash");
+        }
+        catch (Exception e)
+        {
+            MonoBehaviour.print(" start_player.py already exists!");
+        }
+
 
     }
 }

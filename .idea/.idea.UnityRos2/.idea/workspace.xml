@@ -1,64 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="156bf2b6-a86d-4d7b-b960-a8065881e392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/crazyflie/crazyflie_description/meshes/crazyflie.dae.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/crazyflie/crazyflie_description/meshes/crazyflie.dae.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/crazyflie/crazyflie_description/meshes/crazyflie2.dae.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/crazyflie/crazyflie_description/meshes/crazyflie2.dae.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/burger_base_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_10.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_11.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_12.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_13.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_14.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_14.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_base_9.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/astra.dae.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/astra.dae.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/lds.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/lds.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/lds_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/lds_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/r200.dae.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/sensors/r200.dae.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/left_tire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/left_tire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/left_tire_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/left_tire_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/right_tire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/right_tire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/right_tire_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Urdf/turtlebot3/turtlebot3_description/meshes/wheels/right_tire_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/ROS/Navigation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/ROS/Navigation/MoveBaseGoalPublisherEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityRos2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ROS/BuildRos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ROS/BuildRos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/start_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/start_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Navigation/MoveBaseGoalPublisherEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/Navigation/MoveBaseGoalPublisherEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Navigation/MoveBaseGoalPublisherEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ROS/Navigation/MoveBaseGoalPublisherEditor.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +49,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ROS/Navigation/MoveBaseGoalPublisherEditor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Editor/ROS/BuildRos.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/start_player.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1h6DXSQCW399xLQOB0EfnkOAyyt" />
   <component name="ProjectViewState">
@@ -107,6 +100,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599322691476</updated>
       <workItem from="1599322706905" duration="1351000" />
+      <workItem from="1599649831003" duration="646000" />
+      <workItem from="1599666464160" duration="599000" />
+      <workItem from="1599728689963" duration="5818000" />
     </task>
     <servers />
   </component>
@@ -115,6 +111,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
