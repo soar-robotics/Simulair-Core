@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Simulair-Core.1109462931.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="ROS" t="Include">
+            <e p="BuildRos.cs" t="Include" />
+            <e p="Navigation" t="Include">
+              <e p="MoveBaseGoalPublisherEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="FM_ExhibitionToolPack" t="Include">
+          <e p="Common" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Events" t="Include">
+                <e p="UnityEventClass.cs" t="Include" />
+              </e>
+              <e p="Loom.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FMCore" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="FMDesktop" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="FMDesktopMask.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="FMTurboJpeg" t="Include">
+                <e p="Mac" t="Include">
+                  <e p="ReadMe_Mac.txt" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AudioDecoder_Editor.cs" t="Include" />
+                <e p="AudioEncoder_Editor.cs" t="Include" />
+                <e p="FMBuildPostProcessor.cs" t="Include" />
+                <e p="GameViewDecoder_Editor.cs" t="Include" />
+                <e p="GameViewEncoder_Editor.cs" t="Include" />
+                <e p="MicEncoder_Editor.cs" t="Include" />
+              </e>
+              <e p="EnergySaving" t="Include">
+                <e p="EnergySavingManager.cs" t="Include" />
+                <e p="FPSManager.cs" t="Include" />
+              </e>
+              <e p="Features" t="Include">
+                <e p="DemoObjectAnimation.cs" t="Include" />
+                <e p="DemoScreenshot.cs" t="Include" />
+                <e p="FillCameraBackground.cs" t="Include" />
+                <e p="GyroController.cs" t="Include" />
+                <e p="Interactive" t="Include">
+                  <e p="PointerEvents.cs" t="Include" />
+                  <e p="TouchVisualization.cs" t="Include" />
+                  <e p="WorldSpaceButton" t="Include">
+                    <e p="OffScreenTrigger.cs" t="Include" />
+                    <e p="WorldToScreenSpace.cs" t="Include" />
+                  </e>
+                  <e p="ZoomManager.cs" t="Include" />
+                </e>
+                <e p="SceneManager_helper.cs" t="Include" />
+                <e p="TargetProjectionMatrix.cs" t="Include" />
+                <e p="WebcamManager.cs" t="Include" />
+              </e>
+              <e p="Mapper" t="Include">
+                <e p="AudioDecoder.cs" t="Include" />
+                <e p="AudioEncoder.cs" t="Include" />
+                <e p="GameViewDecoder.cs" t="Include" />
+                <e p="GameViewEncoder.cs" t="Include" />
+                <e p="MicEncoder.cs" t="Include" />
+              </e>
+              <e p="Networking" t="Include">
+                <e p="ConnectionDebugText.cs" t="Include" />
+                <e p="NetworkAction" t="Include">
+                  <e p="NetworkActionClient.cs" t="Include" />
+                  <e p="NetworkActionDemo.cs" t="Include" />
+                  <e p="NetworkActionServer.cs" t="Include" />
+                  <e p="NetworkActions_Debug.cs" t="Include" />
+                </e>
+                <e p="NetworkDiscovery.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CircleShader.shader" t="Include" />
+              <e p="FMChromaKey.shader" t="Include" />
+              <e p="FMCubemapToEquirect.shader" t="Include" />
+              <e p="FMUnlitDoubleSide.shader" t="Include" />
+              <e p="multiTiles2x2.shader" t="Include" />
+              <e p="multiTiles4x1.shader" t="Include" />
+              <e p="multiTiles4x4.shader" t="Include" />
+            </e>
+          </e>
+          <e p="FMNetwork" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Demo" t="Include">
+                <e p="FMNetwork_Demo.cs" t="Include" />
+                <e p="FMNetwork_DemoAnimation.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="FMNetworkManager_Editor.cs" t="Include" />
+              </e>
+              <e p="FMClient.cs" t="Include" />
+              <e p="FMNetworkManager.cs" t="Include" />
+              <e p="FMServer.cs" t="Include" />
+              <e p="LargeFileDecoder.cs" t="Include" />
+              <e p="LargeFileEncoder.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FMWebSocket" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="WebsocketSharp" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="FMSocketIOManager_Editor.cs" t="Include" />
+              </e>
+              <e p="FMWebSocketNetwork_debug.cs" t="Include" />
+              <e p="SocketIO" t="Include">
+                <e p="FM_Event" t="Include">
+                  <e p="Ack.cs" t="Include" />
+                  <e p="SocketIOEvent.cs" t="Include" />
+                </e>
+                <e p="FM_IO" t="Include">
+                  <e p="Decoder.cs" t="Include" />
+                  <e p="Encoder.cs" t="Include" />
+                  <e p="FMSocketIOManager.cs" t="Include" />
+                  <e p="Parser.cs" t="Include" />
+                  <e p="SocketIOComponent.cs" t="Include" />
+                  <e p="SocketIOComponentWebGL.cs" t="Include" />
+                  <e p="SocketIOException.cs" t="Include" />
+                </e>
+                <e p="FM_Packet" t="Include">
+                  <e p="EnginePacketType.cs" t="Include" />
+                  <e p="Packet.cs" t="Include" />
+                  <e p="SocketPacketType.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Third-Party Notices.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ROS" t="Include">
+            <e p="Examples" t="Include">
+              <e p="ListenerExample.cs" t="Include" />
+              <e p="TalkerExample.cs" t="Include" />
+            </e>
+            <e p="Extension" t="Include">
+              <e p="RosMessageExtensions.cs" t="Include" />
+            </e>
+            <e p="MobileBase" t="Include">
+              <e p="GroundTruthOdometry.cs" t="Include" />
+              <e p="TwistBaseController.cs" t="Include" />
+            </e>
+            <e p="MonoBehaviourRosNode.cs" t="Include" />
+            <e p="Navigation" t="Include">
+              <e p="MoveBaseGoalPublisher.cs" t="Include" />
+              <e p="MoveBaseGoalPublisherEditor.cs" t="Include" />
+            </e>
+            <e p="Poses" t="Include">
+              <e p="PoseStampedPublisher.cs" t="Include" />
+              <e p="PoseWithCovarianceStampedPublisher.cs" t="Include" />
+            </e>
+            <e p="Sensors" t="Include">
+              <e p="LaserScanner2D.cs" t="Include" />
+            </e>
+            <e p="SharedRosContext.cs" t="Include" />
+            <e p="Teleop" t="Include">
+              <e p="UnityInputTeleop.cs" t="Include" />
+            </e>
+            <e p="Tf" t="Include">
+              <e p="SingleTransformPublisher.cs" t="Include" />
+            </e>
+            <e p="Visualizer" t="Include">
+              <e p="PathVisualizer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Urdf" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AssetHandlers" t="Include">
+                <e p="LocateAssetHandler.cs" t="Include" />
+                <e p="UrdfAssetPathHandler.cs" t="Include" />
+                <e p="UrdfExportPathHandler.cs" t="Include" />
+                <e p="UrdfMeshExportHandler.cs" t="Include" />
+              </e>
+              <e p="GameObjectFactories" t="Include">
+                <e p="Common" t="Include">
+                  <e p="UrdfCollisionFactory.cs" t="Include" />
+                  <e p="UrdfCollisionsFactory.cs" t="Include" />
+                  <e p="UrdfGeometry.cs" t="Include" />
+                  <e p="UrdfGeometryCollision.cs" t="Include" />
+                  <e p="UrdfGeometryFactory.cs" t="Include" />
+                  <e p="UrdfGeometryVisualFactory.cs" t="Include" />
+                  <e p="UrdfMaterialFactory.cs" t="Include" />
+                  <e p="UrdfVisualFactory.cs" t="Include" />
+                  <e p="UrdfVisualsFactory.cs" t="Include" />
+                </e>
+                <e p="Simulation" t="Include">
+                  <e p="UrdfSimulatedJointFactory.cs" t="Include" />
+                  <e p="UrdfSimulatedLinkFactory.cs" t="Include" />
+                  <e p="UrdfSimulatedRobotFactory.cs" t="Include" />
+                </e>
+              </e>
+              <e p="MenuItems" t="Include">
+                <e p="UrdfImporterSimulationContextMenuItem.cs" t="Include" />
+              </e>
+              <e p="MeshProcessing" t="Include">
+                <e p="ColladaAssetPostProcessor.cs" t="Include" />
+                <e p="StlAssetPostProcessor.cs" t="Include" />
+                <e p="StlExporter.cs" t="Include" />
+                <e p="StlImporter.cs" t="Include" />
+                <e p="StlReader.cs" t="Include" />
+                <e p="StlWriter.cs" t="Include" />
+              </e>
+              <e p="Tests" t="Include">
+                <e p="CreateSimulatedUrdfGameObjectTests.cs" t="Include" />
+                <e p="ParseUrdfTests.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="TransformExtensions.cs" t="Include" />
+              <e p="XAttributeExtensions.cs" t="Include" />
+            </e>
+            <e p="Helpers" t="Include">
+              <e p="UrdfOrigin.cs" t="Include" />
+              <e p="UrdfTypes.cs" t="Include" />
+            </e>
+            <e p="Math" t="Include">
+              <e p="Matrix3x3.cs" t="Include" />
+            </e>
+            <e p="Parser" t="Include">
+              <e p="Origin.cs" t="Include" />
+              <e p="Plugin.cs" t="Include" />
+              <e p="Robot.cs" t="Include" />
+              <e p="UrdfJoint.cs" t="Include" />
+              <e p="UrdfLink.cs" t="Include" />
+              <e p="UrdfUnityComponent.cs" t="Include" />
+            </e>
+            <e p="UrdfComponents" t="Include">
+              <e p="Common" t="Include">
+                <e p="UrdfCollision.cs" t="Include" />
+                <e p="UrdfCollisions.cs" t="Include" />
+                <e p="UrdfVisual.cs" t="Include" />
+                <e p="UrdfVisuals.cs" t="Include" />
+              </e>
+              <e p="Simulation" t="Include">
+                <e p="UrdfSimulatedJoint.cs" t="Include" />
+                <e p="UrdfSimulatedLink.cs" t="Include" />
+              </e>
+              <e p="UrdfCustomComponentTypes.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Urdf" t="Include">
+          <e p="crazyflie" t="Include">
+            <e p="crazyflie_description" t="Include">
+              <e p="CMakeLists.txt" t="Include" />
+              <e p="package.xml" t="Include" />
+            </e>
+          </e>
+          <e p="turtlebot3" t="Include">
+            <e p="turtlebot3_description" t="Include">
+              <e p="CMakeLists.txt" t="Include" />
+              <e p="package.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Simulair-Core.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

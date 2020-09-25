@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using rclcs;
 
-public abstract class MonoBehaviourRosNode : MonoBehaviour
+public abstract class MonoBehaviourRosNode : MonoBehaviour 
 {
     protected abstract string nodeName { get; }
     protected Node node;
@@ -62,6 +62,11 @@ public abstract class MonoBehaviourRosNode : MonoBehaviour
         {
             rclcs.Rclcs.SpinOnce(node, context, 0.0d);
         }
+    }
+
+    protected void SpinOnce()
+    {
+        rclcs.Rclcs.SpinOnce(node, context, 0.0d);
     }
 
     private void OnDestroy() {
