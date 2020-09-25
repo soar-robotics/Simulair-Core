@@ -22,5 +22,5 @@ There is an example Scene named `RosNavigationExample` in this project for sendi
 Tutorials
 ---------
 ### Getting Started
-**Tutorial 1:** [Install prerequisites, development tools and run the project.](https://www.notion.so/soarrobotics/Setting-up-the-Simulair-Core-Development-Workspace-4517944d1e084c6da3f5db447df8ed8b)
-**Tutorial 2:** [Write a simple subscriber inside unity.](https://www.notion.so/soarrobotics/Create-a-Simple-Listener-Using-Ros2-Unit-61c4d5760b8a419ca0d240811b8de165)
+- **Tutorial 1:** [Install prerequisites, development tools and run the project.](https://www.notion.so/soarrobotics/Setting-up-the-Simulair-Core-Development-Workspace-4517944d1e084c6da3f5db447df8ed8b)
+- **Tutorial 2:** [Write a simple subscriber inside unity.](https://www.notion.so/soarrobotics/Create-a-Simple-Listener-Using-Ros2-Unit-61c4d5760b8a419ca0d240811b8de165)
