@@ -46,6 +46,7 @@ public class LaserScanner2D : MonoBehaviourRosNode
         shouldScan = false;
         if (ScanLink == null)
         {
+            
             ScanLink = transform;
         }
 
