@@ -17,7 +17,7 @@ public class FMSocketIOManager : MonoBehaviour {
 
     public static FMSocketIOManager instance;
     /// <summary>
-    /// Auto Initialise and Connect   	
+    /// Auto Initialise and Connect in  	
     /// </summary>
     public bool AutoInit = true;
 
@@ -253,7 +253,7 @@ public class FMSocketIOManager : MonoBehaviour {
                     {
                         DebugLog("SocketIO connected");
                         //Ready = true;
-                        if (NetworkType == FMSocketIONetworkType.Server) Emit("RegServerId");
+                        if (NetworkType == FMSocketIONetworkType.Server) Emit("RegServerId"); //
                     });
                     //On("open", (SocketIOEvent e) =>
                     //{

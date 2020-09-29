@@ -29,19 +29,31 @@
 
 namespace FMSocketIO
 {
+	/// <summary>
+	/// Holds up meta data about the package.
+	/// </summary>
 	public class Packet
 	{
 		public EnginePacketType enginePacketType;
 		public SocketPacketType socketPacketType;
 
 		public int attachments;
-		public string nsp;
+		public string nsp; //namespace
 		public int id;
 		public string json;
 
 		public Packet() : this(EnginePacketType.UNKNOWN) { }
-        public Packet(EnginePacketType enginePacketType) : this(enginePacketType, SocketPacketType.UNKNOWN, -1, "/", -1, "") { }
 
+		public Packet(string _nsp) : this(EnginePacketType.UNKNOWN)
+		{
+			this.nsp = _nsp;
+		}
+		
+        public Packet(EnginePacketType enginePacketType) : this(enginePacketType, SocketPacketType.UNKNOWN, -1, "/", -1, "") { }
+		
+        
+        public Packet(EnginePacketType enginePacketType, string _nsp) : this(enginePacketType, SocketPacketType.UNKNOWN, -1, _nsp, -1, "") { }
+        
 		public Packet(EnginePacketType enginePacketType, SocketPacketType socketPacketType, int attachments, string nsp, int id, string json)
 		{
 			this.enginePacketType = enginePacketType;

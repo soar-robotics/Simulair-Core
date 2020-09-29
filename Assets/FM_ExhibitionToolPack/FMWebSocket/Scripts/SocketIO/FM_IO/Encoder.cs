@@ -36,6 +36,13 @@ namespace FMSocketIO
 {
 	public class Encoder
 	{
+		/// <summary>
+		/// Encodes packet object to a string that is parsable by the socket.io
+		/// Example packet structure: 
+		/// </summary>
+		/// <param name="packet"></param>
+		/// <returns></returns>
+		/// <exception cref="SocketIOException"></exception>
 		public string Encode(Packet packet)
 		{
 			try
@@ -53,7 +60,6 @@ namespace FMSocketIO
 				}
 
 				builder.Append((int)packet.socketPacketType);
-
 				// attachments if we have them
 				if (packet.socketPacketType == SocketPacketType.BINARY_EVENT || packet.socketPacketType == SocketPacketType.BINARY_ACK) {
 					builder.Append(packet.attachments);

@@ -49,6 +49,9 @@ namespace FMSocketIO
 
     public class SocketIOComponent : MonoBehaviour
     {
+        ///<summary>
+        ///This is created in runtime by SocketIOManager
+        ///</summary>
         #region Public Properties
         public static SocketIOComponent instance;
         public string IP = "127.0.0.13";
@@ -141,23 +144,23 @@ namespace FMSocketIO
 
             handlers = new Dictionary<string, List<Action<SocketIOEvent>>>();
 
-            eventQueueLock = new object();
-            eventQueue = new Queue<SocketIOEvent>();
+            eventQueueLock = new object(); // mutex object for multi-threaded operation
+            eventQueue = new Queue<SocketIOEvent>(); 
 
-            ackQueueLock = new object();
-            ackQueue = new Queue<Packet>();
+            ackQueueLock = new object(); // mutex object for multi-threaded operation
+            ackQueue = new Queue<Packet>(); 
             ackList = new List<Ack>();
 
             RawMessageQueueLock = new object();
             RawMessageQueue = new Queue<string>();
 
             //url = "ws" + (sslEnabled ? "s" : "") + "://" + IP + ":" + port + "/socket.io/?EIO=4&transport=websocket";
-            url = "ws" + (sslEnabled ? "s" : "") + "://" + IP;
+            url = "ws" + (sslEnabled ? "s" : "") + "://" + IP; //if ssl enabled, socket adress will start with wss:// else ws://
             if(portRequired) url += ":" + port;
             if (socketIORequired)
             {
                 url += "/socket.io/";
-                url += DefaultQueryString ? "?EIO=4&transport=websocket" : CustomisedQueryString;
+                url += DefaultQueryString ? "?EIO=4&transport=websocket" : CustomisedQueryString; // default endpoint that socket.io uses 
             }
             Debug.Log(url);
 
@@ -183,7 +186,7 @@ namespace FMSocketIO
                 DebugMode = FMSocketIOManager.instance.DebugMode;
                 lock (RawMessageQueueLock)
                 {
-                    while (RawMessageQueue.Count > 0) FMSocketIOManager.instance.OnReceivedRawMessageEvent.Invoke(RawMessageQueue.Dequeue());
+                    while (RawMessageQueue.Count > 0) FMSocketIOManager.instance.OnReceivedRawMessageEvent.Invoke(RawMessageQueue.Dequeue()); //row messages are only used in debug mode
                 }
             }
 
@@ -262,7 +265,11 @@ namespace FMSocketIO
         {
             EmitMessage(-1, ev);
         }
-
+        
+        /// <summary>
+        /// Emit an empty event
+        /// </summary>
+        /// <param name="ev"></param>
         public void Emit(string ev)
         {
             EmitMessage(-1, string.Format("[\"{0}\"]", ev));
@@ -288,7 +295,11 @@ namespace FMSocketIO
         #endregion
 
         #region Private Methods
-
+        
+        /// <summary>
+        /// Checks if connection is available periodically.If not tries to connect.
+        /// </summary>
+        /// <param name="obj"> the socket object</param>
         private void RunSocketThread(object obj)
         {
             WebSocket webSocket = (WebSocket)obj;
@@ -296,7 +307,7 @@ namespace FMSocketIO
             {
                 if (IsWebSocketConnected(webSocket))
                 {
-                    Thread.Sleep(reconnectDelay);
+                    Thread.Sleep(reconnectDelay);//Socket Thread tries to reconnect in every 'reconnectDelay' seconds
                 }
                 else
                 {
@@ -338,7 +349,11 @@ namespace FMSocketIO
                     pingStart = DateTime.Now;
 
                     while (IsWebSocketConnected(webSocket) && thPinging && (DateTime.Now.Subtract(pingStart).TotalSeconds < timeoutMilis)) Thread.Sleep(200);
-                    if (!thPong) webSocket.Close();
+                    if (!thPong)
+                    {
+                        webSocket.Close();
+                    }
+
                     Thread.Sleep(intervalMilis);
                 }
             }
@@ -405,7 +420,7 @@ namespace FMSocketIO
             {
                 for (int i = 0; i < ackList.Count; i++)
                 {
-                    if (ackList[i].packetId != packet.id) continue;
+                    if (ackList[i].packetId != packet.id) continue; // if ACK exists
                     lock (ackQueueLock) ackQueue.Enqueue(packet);
                     return;
                 }
@@ -428,16 +443,27 @@ namespace FMSocketIO
             EmitEvent("error");
         }
 
+        
         private void OnClose(object sender, CloseEventArgs e)
         {
             EmitEvent("close");
         }
-
+        
+        /// <summary>
+        ///  Calls the functions registered inside 'handlers' dictionary
+        /// with the key that specified with 'type'
+        /// </summary>
+        /// <param name="type">name of the event</param>
         private void EmitEvent(string type)
         {
             EmitEvent(new SocketIOEvent(type));
         }
 
+        /// <summary>
+        /// Calls the functions registered inside 'handlers' dictionary
+        /// with the key that specified with ev.name
+        /// </summary>
+        /// <param name="ev">ev.name is name of the event</param>
         private void EmitEvent(SocketIOEvent ev)
         {
             if (!handlers.ContainsKey(ev.name)) return;

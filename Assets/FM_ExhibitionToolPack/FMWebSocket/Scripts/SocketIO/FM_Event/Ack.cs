@@ -30,20 +30,30 @@ using System;
 
 namespace FMSocketIO
 {
+	/// <summary>
+	/// Holds up packetID, time and a callback function with one string parameter.
+	/// </summary>
 	public class Ack
 	{
+
 		public int packetId;
 		public DateTime time;
 
 		private System.Action<string> action;
 
+		/// <summary>
+		/// Constructor
+		/// </summary>
+		/// <param name="packetId">ID of the packet</param>
+		/// <param name="action">Represents a custom function with one string parameter.
+		/// This function can be called up with Invoke function.</param>
 		public Ack(int packetId, System.Action<string> action)
 		{
 			this.packetId = packetId;
 			this.time = DateTime.Now;
 			this.action = action;
 		}
-
+	
 		public void Invoke(string ev)
 		{
 			action.Invoke(ev);

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338d2ea4-46f8-4d25-a8f4-d2ac3923a10c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMCore/Scenes/Networking/Demo_WebSocketStreaming/Demo_WebSocketStreaming.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMCore/Scenes/Networking/Demo_WebSocketStreaming/Demo_WebSocketStreaming.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +19,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/41/bf5195df/WebSocket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/15/d1673700/WebSocketState.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" />
         <option value="$PROJECT_DIR$/Assets/simpleListener_node.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
       </list>
     </option>
   </component>
@@ -31,6 +46,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -63,6 +79,10 @@
       <updated>1599899117290</updated>
       <workItem from="1599899127258" duration="1848000" />
       <workItem from="1600963154072" duration="11342000" />
+      <workItem from="1601042654257" duration="856000" />
+      <workItem from="1601045532372" duration="26506000" />
+      <workItem from="1601281237161" duration="3555000" />
+      <workItem from="1601286283639" duration="9380000" />
     </task>
     <servers />
   </component>
@@ -81,8 +101,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="187" key="SettingsEditor" timestamp="1601042903924">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1601042903924" />
+    <state x="67" y="225" width="1653" height="855" key="VCS.FileHistoryDialog" timestamp="1601044435854">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="225" width="1653" height="855" key="VCS.FileHistoryDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1601044435854" />
   </component>
 </project>
