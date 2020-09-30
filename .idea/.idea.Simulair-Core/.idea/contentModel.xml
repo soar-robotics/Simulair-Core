@@ -262,6 +262,16 @@
             </e>
           </e>
         </e>
+        <e p="SimulairCorePack" t="Include">
+          <e p="Core" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Starter" t="Include">
+                <e p="InitializationParams.cs" t="Include" />
+                <e p="StartupConfigurationManager.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Urdf" t="Include">
           <e p="crazyflie" t="Include">
             <e p="crazyflie_description" t="Include">
@@ -276,6 +286,7 @@
             </e>
           </e>
         </e>
+        <e p="junkscript.cs" t="Include" />
       </e>
       <e p="Simulair-Core.sln" t="IncludeFlat" />
       <e p="Temp/bin" t="ExcludeRecursive" />

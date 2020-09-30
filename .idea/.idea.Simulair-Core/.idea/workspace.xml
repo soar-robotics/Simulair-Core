@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:operation" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:operation" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="338d2ea4-46f8-4d25-a8f4-d2ac3923a10c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMCore/Scenes/Networking/Demo_WebSocketStreaming/Demo_WebSocketStreaming.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMCore/Scenes/Networking/Demo_WebSocketStreaming/Demo_WebSocketStreaming.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +44,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/41/bf5195df/WebSocket.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/15/d1673700/WebSocketState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/junkscript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,8 +58,11 @@
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
-        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/InitializationParams.cs" />
+        <option value="$PROJECT_DIR$/Assets/junkscript.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +112,9 @@
       <workItem from="1601045532372" duration="26506000" />
       <workItem from="1601281237161" duration="3555000" />
       <workItem from="1601286283639" duration="9380000" />
+      <workItem from="1601380670715" duration="2472000" />
+      <workItem from="1601406026255" duration="1011000" />
+      <workItem from="1601408718648" duration="1637000" />
     </task>
     <servers />
   </component>

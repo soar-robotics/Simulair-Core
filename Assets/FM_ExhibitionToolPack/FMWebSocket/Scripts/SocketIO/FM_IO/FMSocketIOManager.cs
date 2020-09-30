@@ -13,8 +13,9 @@ public struct FMSocketIOData
 
 public enum FMSocketIONetworkType { Server, Client }
 public enum FMSocketIOEmitType { All, Server, Others }
-public class FMSocketIOManager : MonoBehaviour {
-
+public class FMSocketIOManager : MonoBehaviour
+{
+    private junkscript js;
     public static FMSocketIOManager instance;
     /// <summary>
     /// Auto Initialise and Connect in  	
@@ -222,6 +223,7 @@ public class FMSocketIOManager : MonoBehaviour {
 
     void Awake()
     {
+        js = junkscript.instance;
         Application.runInBackground = true;
         if (instance == null) instance = this;
 
@@ -246,7 +248,7 @@ public class FMSocketIOManager : MonoBehaviour {
             {
                 HasConnected = true;
                 Connect();
-
+                js.printLine(socketIO.IP);
                 if (Settings.socketIORequired)
                 {
                     On("connect", (SocketIOEvent e) =>

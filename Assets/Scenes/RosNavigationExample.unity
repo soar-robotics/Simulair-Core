@@ -221,6 +221,7 @@ Transform:
   m_Children:
   - {fileID: 462750267}
   - {fileID: 1249342636}
+  - {fileID: 742857168}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -557,7 +558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462750266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.73, y: 5.02, z: -6.021}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 91554595}
@@ -581,8 +582,8 @@ MonoBehaviour:
   RenderCam: {fileID: 963194227}
   Resolution: {x: 1280, y: 720}
   MatchScreenAspect: 1
-  FastMode: 0
-  AsyncMode: 0
+  FastMode: 1
+  AsyncMode: 1
   GZipMode: 0
   PanoramaMode: 0
   Quality: 40
@@ -604,8 +605,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1249342637}
         m_TargetAssemblyTypeName: FMSocketIOManager, Assembly-CSharp
-        m_MethodName: SendToAll
-        m_Mode: 5
+        m_MethodName: SendToOthers
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -785,6 +786,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &742857167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 742857168}
+  - component: {fileID: 742857169}
+  m_Layer: 0
+  m_Name: StartupConfigurationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &742857168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742857167}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.653246, y: -0.59630823, z: 8.434332}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 91554595}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &742857169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742857167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a822fd9e66074db3d8145ea5a1f4a33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &819826113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,7 +1196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990481140}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 430d2252943b8984b8cca9e0efb04589, type: 3}
   m_Name: 
@@ -1324,9 +1368,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoInit: 1
-  NetworkType: 1
+  NetworkType: 0
   Settings:
-    IP: 127.0.0.1
+    IP: 0.0.0.0
     port: 3000
     sslEnabled: 0
     reconnectDelay: 5
