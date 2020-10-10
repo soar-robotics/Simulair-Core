@@ -108,6 +108,7 @@ public class FMSocketIOManager : MonoBehaviour
     {
         if (!DebugMode) return;
         Debug.Log("FMLog: " + _value);
+        js.printLine( "FMLog: " + _value);
     }
 
     public Queue<String> RawMessageQueue = new Queue<String>();
@@ -240,15 +241,18 @@ public class FMSocketIOManager : MonoBehaviour
 
     void Update()
     {
-        if (isInitialised) DelayInitTimer += Time.deltaTime;
+        if (isInitialised)
+        {
+            DelayInitTimer += Time.deltaTime;
+        }
 
         if (DelayInitTimer > DelayInitThreshold)
         {
             if (!HasConnected)
             {
+                js.printLine(socketIO.IP);
                 HasConnected = true;
                 Connect();
-                js.printLine(socketIO.IP);
                 if (Settings.socketIORequired)
                 {
                     On("connect", (SocketIOEvent e) =>

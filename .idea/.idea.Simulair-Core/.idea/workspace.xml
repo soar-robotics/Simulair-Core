@@ -31,9 +31,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="338d2ea4-46f8-4d25-a8f4-d2ac3923a10c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/junkscript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/junkscript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +47,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/41/bf5195df/WebSocket.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/986D0586-67B4-4429-95CD-7127D93D0835/15/d1673700/WebSocketState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/VertexHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/junkscript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DAEA048D-63E1-48EC-99A1-84203650E51A/f0/bf02f22e/Clock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DAEA048D-63E1-48EC-99A1-84203650E51A/67/3f33d903/RosTime.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" />
         <option value="$PROJECT_DIR$/Assets/simpleListener_node.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/InitializationParams.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/InitializationParams.cs" />
         <option value="$PROJECT_DIR$/Assets/junkscript.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MobileBase/GroundTruthOdometry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairStatePublisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Utilities/InspectorCameraController.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +125,10 @@
       <workItem from="1601380670715" duration="2472000" />
       <workItem from="1601406026255" duration="1011000" />
       <workItem from="1601408718648" duration="1637000" />
+      <workItem from="1601469601685" duration="6308000" />
+      <workItem from="1602162264205" duration="1781000" />
+      <workItem from="1602247871487" duration="2634000" />
+      <workItem from="1602339512160" duration="13651000" />
     </task>
     <servers />
   </component>
@@ -147,5 +161,17 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="67" y="225" width="1653" height="855" key="VCS.FileHistoryDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1601044435854" />
+    <state x="521" y="265" width="934" height="575" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602351906984">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="521" y="265" width="934" height="575" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602351906984" />
+    <state x="605" y="161" width="776" height="783" key="find.popup" timestamp="1602347516496">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="605" y="161" width="776" height="783" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602347516496" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601473045611">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1601473045611" />
   </component>
 </project>
