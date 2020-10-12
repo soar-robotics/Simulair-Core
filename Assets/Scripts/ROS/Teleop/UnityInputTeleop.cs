@@ -44,15 +44,18 @@ public class UnityInputTeleop : MonoBehaviourRosNode
 
     private void Update()
     {
-        cmdVelMsg.Linear.X = Input.GetAxis("Vertical") * MaxForwardVelocity;
-        if (UseHolonomicControls)
+        if (!Input.GetMouseButton(1))
         {
-            cmdVelMsg.Linear.Y = -Input.GetAxis("Horizontal") * MaxSidewaysVelocity;
-            cmdVelMsg.Angular.Z = -Input.GetAxis("Turning") * MaxRotationalVelocity;
-        }
-        else
-        {
-            cmdVelMsg.Angular.Z = -Input.GetAxis("Horizontal") * MaxRotationalVelocity;
+            cmdVelMsg.Linear.X = Input.GetAxis("Vertical") * MaxForwardVelocity;
+            if (UseHolonomicControls)
+            {
+                cmdVelMsg.Linear.Y = -Input.GetAxis("Horizontal") * MaxSidewaysVelocity;
+                cmdVelMsg.Angular.Z = -Input.GetAxis("Turning") * MaxRotationalVelocity;
+            }
+            else
+            {
+                cmdVelMsg.Angular.Z = -Input.GetAxis("Horizontal") * MaxRotationalVelocity;
+            }
         }
     }
 }

@@ -57,16 +57,8 @@ public class SimulairStatePublisher : MonoBehaviourRosNode
         }
 
         StartCoroutine("PublishOdometryRoutine");
-        
-        if (PublishTf)
-        {
-            StartCoroutine("PublishTfRoutine");
-        }
-
-        if (PublishClock)
-        {
-            StartCoroutine("PublishClockRoutine");
-        }
+        StartCoroutine("PublishTfRoutine");
+        StartCoroutine("PublishClockRoutine");
     }
 
     IEnumerator PublishOdometryRoutine()
@@ -81,7 +73,10 @@ public class SimulairStatePublisher : MonoBehaviourRosNode
     {
         for (;;)
         {
-            tfPublisher.Publish(tfMsg);
+            if (PublishTf)
+            {
+                tfPublisher.Publish(tfMsg);
+            }
             yield return new WaitForSeconds(1.0f / TfPublishingFrequency);
         }
     }
@@ -90,10 +85,14 @@ public class SimulairStatePublisher : MonoBehaviourRosNode
     {
         for (;;)
         {
-            clockMsg = new builtin_interfaces.msg.Time();
-            clockMsg.Sec = clock.Now.sec;
-            clockMsg.Nanosec = clock.Now.nanosec;
-            clockPublisher.Publish(clockMsg);
+            if (PublishClock)
+            {
+                clockMsg = new builtin_interfaces.msg.Time();
+                clockMsg.Sec = clock.Now.sec;
+                clockMsg.Nanosec = clock.Now.nanosec;
+                clockPublisher.Publish(clockMsg);
+            }
+
             yield return new WaitForSeconds(1.0f / ClockPublishingFrequency);
         }
     }
