@@ -24,4 +24,4 @@ else:
     player_directory = os.path.dirname(os.path.realpath(sys.argv[0]))
     player_path = player_directory + '/RosApplication'
     print("Binary path: " + player_path)
-    subprocess.call([player_path])
+    subprocess.call([player_path] + sys.argv[1:])

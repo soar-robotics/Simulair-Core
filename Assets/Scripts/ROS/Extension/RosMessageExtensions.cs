@@ -191,7 +191,12 @@ namespace rclcs
 
             return rosTime;
         }
-
+        
+        /// <summary>
+        /// Calculate linear and angular velocity and convert it to geometry_msgs.Twist
+        /// </summary>
+        /// <param name="rosTwist"></param>
+        /// <param name="unityRigidbody"></param>
         public static void Unity2Ros(this geometry_msgs.msg.Twist rosTwist, Rigidbody unityRigidbody)
         {
             Vector3 rosLinearVelocity = unityRigidbody.transform.InverseTransformDirection(unityRigidbody.velocity).Unity2Ros();

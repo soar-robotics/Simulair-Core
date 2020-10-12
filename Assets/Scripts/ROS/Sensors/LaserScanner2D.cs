@@ -55,9 +55,9 @@ public class LaserScanner2D : MonoBehaviourRosNode
             ScanLinkName = ScanLink.name;
         }
 
-        scanMsgQueue = new Queue<sensor_msgs.msg.LaserScan>();
-        lastSentScanMsg = CreateLaserScanMessage();
-        scanPublisher = node.CreatePublisher<sensor_msgs.msg.LaserScan>(ScanTopic);
+        scanMsgQueue = new Queue<sensor_msgs.msg.LaserScan>(); //Queue the messages for sending out
+        lastSentScanMsg = CreateLaserScanMessage(); // Create laser scan
+        scanPublisher = node.CreatePublisher<sensor_msgs.msg.LaserScan>(ScanTopic); 
         StartCoroutine("TriggerScan");
         StartCoroutine("PublishScansIfOldEnough");
     }

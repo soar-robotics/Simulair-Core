@@ -49,6 +49,7 @@ namespace FMSocketIO
 
     public class SocketIOComponent : MonoBehaviour
     {
+        private junkscript js;
         ///<summary>
         ///This is created in runtime by SocketIOManager
         ///</summary>
@@ -127,10 +128,12 @@ namespace FMSocketIO
         {
             if (!DebugMode) return;
             Debug.Log("FMLog: " + _value);
+            js.printLine("FMLog: " + _value);
         }
 
         public void Awake()
         {
+            js = junkscript.instance;
             if (instance == null) instance = this;
         }
 
