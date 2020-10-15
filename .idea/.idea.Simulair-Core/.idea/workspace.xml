@@ -31,14 +31,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="338d2ea4-46f8-4d25-a8f4-d2ac3923a10c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Utilities/InspectorCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Utilities/InspectorCameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +73,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairStatePublisher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/OdometrySettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Utilities/InspectorCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/SettingsPanelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" />
       </list>
     </option>
@@ -142,7 +139,8 @@
       <workItem from="1602339512160" duration="13651000" />
       <workItem from="1602364980926" duration="5000" />
       <workItem from="1602370379972" duration="28494000" />
-      <workItem from="1602517384436" duration="1624000" />
+      <workItem from="1602517384436" duration="3175000" />
+      <workItem from="1602670611755" duration="12306000" />
     </task>
     <servers />
   </component>

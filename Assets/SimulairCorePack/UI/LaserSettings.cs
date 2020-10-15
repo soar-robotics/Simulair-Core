@@ -12,8 +12,8 @@ public class LaserSettings : MonoBehaviour
     {
         public Slider slider;
         public Text value;
-        
     }
+    
     public GenericLaserScanner GLS;
 
     public SpecialSlider RangeMinimum;
