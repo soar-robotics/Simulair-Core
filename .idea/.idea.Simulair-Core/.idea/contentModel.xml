@@ -279,6 +279,12 @@
               </e>
             </e>
           </e>
+          <e p="UI" t="Include">
+            <e p="GeneralSettings.cs" t="Include" />
+            <e p="LaserSettings.cs" t="Include" />
+            <e p="OdometrySettings.cs" t="Include" />
+            <e p="SettingsPanelManager.cs" t="Include" />
+          </e>
           <e p="Utilities" t="Include">
             <e p="InspectorCameraController.cs" t="Include" />
           </e>

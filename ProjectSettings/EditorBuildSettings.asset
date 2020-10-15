@@ -44,7 +44,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/FM_ExhibitionToolPack/FMCore/Scenes/Networking/Demo_TCPGameViewStreaming(Old)/Demo_TCPGameViewStreamingClient(old).unity
     guid: 5a88711b7ac1e4d1cb98a3b32b334120
-  - enabled: 1
-    path: Assets/socket.unity
-    guid: 7ac9bc405f16a0f1484cdc378a5f85b2
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

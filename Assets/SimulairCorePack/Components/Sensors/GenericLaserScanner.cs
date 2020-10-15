@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,7 +27,8 @@ namespace SimulairCorePack.Components.Sensors
         public LayerMask LayerMask = -1;
         public bool Visualize = true;
         public Color VisualizationColor = new Color(1.0f, 0.0f, 0.0f, 0.1f);
-
+        public Material VisualizationMaterial;
+        
         public float PublisherDelay = 0.1f; // To prevent lookup into future tf2 errors
 
         private int numLines;
@@ -41,9 +43,9 @@ namespace SimulairCorePack.Components.Sensors
         private Publisher<sensor_msgs.msg.LaserScan> scanPublisher;
         private sensor_msgs.msg.LaserScan lastSentScanMsg;
         private Queue<sensor_msgs.msg.LaserScan> scanMsgQueue;
-
+        
         protected override void StartRos()
-        {
+            {
             shouldScan = false;
             if (ScanLink == null)
             {
@@ -172,6 +174,7 @@ namespace SimulairCorePack.Components.Sensors
                    Quaternion.AngleAxis(ApertureAngle / 2 + (-1 * index * AngularResolution), Vector3.up) *
                    Vector3.forward;
         }
+        
 
     }
 
