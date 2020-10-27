@@ -75,6 +75,13 @@ namespace rclcs
             rosPose.Position.Unity2Ros(unityTransform.position);
             rosPose.Orientation.Unity2Ros(unityTransform.rotation);
         }
+        
+        /// <summary>
+        /// Find transform of "unityTransform" in frame of "referenceFrame" and convert it to geometry_msgs/Pose
+        /// </summary>
+        /// <param name="rosPose"></param>
+        /// <param name="unityTransform"></param>
+        /// <param name="referenceFrame"></param>
         public static void Unity2Ros(this geometry_msgs.msg.Pose rosPose, Transform unityTransform, Transform referenceFrame)
         {
             rosPose.Position.Unity2Ros(unityTransform.position, referenceFrame);
@@ -92,7 +99,14 @@ namespace rclcs
             rosTransform.Translation.Unity2Ros(unityTransform.position);
             rosTransform.Rotation.Unity2Ros(unityTransform.rotation);
         }
-
+        
+        
+        /// <summary>
+        /// Find transform of "unityTransform" in frame of "referenceFrame" and convert it to geometry_msgs/Transform.
+        /// </summary>
+        /// <param name="rosTransform"></param>
+        /// <param name="unityTransform"></param>
+        /// <param name="referenceFrame"></param>
         public static void Unity2Ros(this geometry_msgs.msg.Transform rosTransform, Transform unityTransform, Transform referenceFrame)
         {
             rosTransform.Translation.Unity2Ros(referenceFrame.InverseTransformPoint(unityTransform.position));
@@ -104,7 +118,12 @@ namespace rclcs
             rosTransform.Translation.Unity2Ros(unityTransform.localPosition);
             rosTransform.Rotation.Unity2Ros(unityTransform.localRotation);
         }
-
+        
+        /// <summary>
+        /// Convert Unity Vector3 to geometry_msgs/Vector3
+        /// </summary>
+        /// <param name="rosVector3Msg">Output.</param>
+        /// <param name="unityVector3">Input Vector3.</param>
         public static void Unity2Ros(this geometry_msgs.msg.Vector3 rosVector3Msg, Vector3 unityVector3)
         {
             Vector3 rosVector3 = unityVector3.Unity2Ros();

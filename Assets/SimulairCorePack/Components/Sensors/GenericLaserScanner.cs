@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using rclcs;
+using SimulairCorePack.Core;
 
 
 namespace SimulairCorePack.Components.Sensors
@@ -10,6 +11,7 @@ namespace SimulairCorePack.Components.Sensors
 
     public class GenericLaserScanner : MonoBehaviourRosNode
     {
+        private RobotIdentifier thisRobot;
         public string NodeName = "kiwibot_components";
         public string ScanTopic = "scan";
 
@@ -45,7 +47,18 @@ namespace SimulairCorePack.Components.Sensors
         private Queue<sensor_msgs.msg.LaserScan> scanMsgQueue;
         
         protected override void StartRos()
+        {
+            StartCoroutine("WaitForRobotIdentifier");
+        }
+
+        IEnumerator WaitForRobotIdentifier()
+        {
+            while (thisRobot == null)
             {
+                thisRobot = transform.parent.parent.parent.GetComponent<RobotIdentifier>();
+                yield return null;
+            }
+            
             shouldScan = false;
             if (ScanLink == null)
             {
@@ -55,7 +68,7 @@ namespace SimulairCorePack.Components.Sensors
 
             if (ScanLinkName == "")
             {
-                ScanLinkName = ScanLink.name;
+                ScanLinkName = thisRobot.name + "/" + ScanLink.name;
             }
 
             scanMsgQueue = new Queue<sensor_msgs.msg.LaserScan>(); //Queue the messages for sending out
@@ -64,7 +77,6 @@ namespace SimulairCorePack.Components.Sensors
             StartCoroutine("TriggerScan");
             StartCoroutine("PublishScansIfOldEnough");
         }
-
         IEnumerator PublishScansIfOldEnough()
         {
             for (;;)

@@ -7,6 +7,7 @@ using Button = UnityEngine.UI.Button;
 
 public class SettingsPanelManager : MonoBehaviour
 {
+    /*
     private Color active;
     private Color deactive;
 
@@ -49,4 +50,5 @@ public class SettingsPanelManager : MonoBehaviour
             gameObject.SetActive(true);
         }
     }
+    */
 }

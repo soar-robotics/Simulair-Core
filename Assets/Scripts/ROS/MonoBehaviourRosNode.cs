@@ -9,9 +9,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using rclcs;
 
-public abstract class MonoBehaviourRosNode : MonoBehaviour 
+public abstract class MonoBehaviourRosNode : MonoBehaviour
 {
     protected abstract string nodeName { get; }
+    private bool useNamespace = true;
+    private string ros_namespace = "";
     protected Node node;
     protected int spinSomeIterations = 10;
     protected Clock clock;
@@ -19,6 +21,8 @@ public abstract class MonoBehaviourRosNode : MonoBehaviour
     private Context context;
     private bool isAwake = false;
 
+    
+    
     private void OnValidate() {
         getSharedContext();
         if (context != null && isAwake)
@@ -35,13 +39,43 @@ public abstract class MonoBehaviourRosNode : MonoBehaviour
         isAwake = true;
     }
 
+    public void DeactivateNamespace()
+    {
+        useNamespace = false;
+    }
+    public void SetNamespace(string nameSpace)
+    {
+        ros_namespace = nameSpace;
+        if (context != null && isAwake)
+        {
+            StopAllCoroutines();
+            CreateRosNode();
+            StartRos();
+        }
+    }
+
+    public string GetNamespace()
+    {
+        return ros_namespace;
+    }
+    
     private void CreateRosNode()
     {
         getSharedContext();
-        node = new Node(nodeName, context);
+        if (useNamespace)
+        {
+            if (ros_namespace == "")
+                node = new Node(nodeName, context);
+            else
+                node = new Node(nodeName, context, ros_namespace);
+        }
+        else
+        {
+            node = new Node(nodeName, context);
+        }
     }
 
-    private void getSharedContext()
+        private void getSharedContext()
     {
         var sharedContextInstances = FindObjectsOfType(typeof(SharedRosContext));
         if (sharedContextInstances.Length > 0)

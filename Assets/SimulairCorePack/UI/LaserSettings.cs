@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class LaserSettings : MonoBehaviour
-{
+{/*
     [Serializable]
     public class SpecialSlider
     {
@@ -92,5 +92,6 @@ public class LaserSettings : MonoBehaviour
             RangeMinimum.slider.value = RangeMaximum.slider.value;
         }
     }
+    */
 
 }

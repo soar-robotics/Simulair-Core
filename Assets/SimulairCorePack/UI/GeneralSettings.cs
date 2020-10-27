@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GeneralSettings : MonoBehaviour
 {
+    /*
     [Serializable]
     public class SpecialSlider
     {
@@ -48,5 +49,5 @@ public class GeneralSettings : MonoBehaviour
             updatePlaceHolders();
         }
     }
-    
+    */
 }

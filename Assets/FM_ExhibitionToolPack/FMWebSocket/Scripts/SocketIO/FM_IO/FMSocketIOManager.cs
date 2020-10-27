@@ -108,7 +108,7 @@ public class FMSocketIOManager : MonoBehaviour
     {
         if (!DebugMode) return;
         Debug.Log("FMLog: " + _value);
-        js.printLine( "FMLog: " + _value);
+        //js.printLine( "FMLog: " + _value);
     }
 
     public Queue<String> RawMessageQueue = new Queue<String>();
@@ -250,7 +250,7 @@ public class FMSocketIOManager : MonoBehaviour
         {
             if (!HasConnected)
             {
-                js.printLine(socketIO.IP);
+                //js.printLine(socketIO.IP);
                 HasConnected = true;
                 Connect();
                 if (Settings.socketIORequired)

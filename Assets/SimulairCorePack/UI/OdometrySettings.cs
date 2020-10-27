@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using SimulairCorePack.Core;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class OdometrySettings : MonoBehaviour
 {
+    /*
     public Toggle TfToggle;
     public InputField TfFreq;
     
@@ -57,4 +59,5 @@ public class OdometrySettings : MonoBehaviour
             updatePlaceHolders();
         }
     }
+    */
 }

@@ -31,11 +31,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="338d2ea4-46f8-4d25-a8f4-d2ac3923a10c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/TfPublisher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/TfPublisher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simulair-Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RosNavigationExample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/OdometrySettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/OdometrySettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/SettingsPanelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimulairCorePack/UI/SettingsPanelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,32 +73,41 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" />
         <option value="$PROJECT_DIR$/Assets/simpleListener_node.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/Encoder.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Event/Ack.cs" />
         <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/InitializationParams.cs" />
-        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
         <option value="$PROJECT_DIR$/Assets/junkscript.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MobileBase/GroundTruthOdometry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairStatePublisher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Sensors/LaserScanner2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/OdometrySettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Utilities/InspectorCameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Managers/RobotManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Identifiers/RobotIdentifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MobileBase/TwistBaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Extension/RosMessageExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/OdometrySettings.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/SettingsPanelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/SimulairStatePublisher.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/LaserSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/SimulairCorePack/UI/GeneralSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/DummyRobotSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/Teleop/UnityInputTeleop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ROS/MonoBehaviourRosNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/Starter/StartupConfigurationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/OdomPublisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Core/Scripts/ROS/TfPublisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/FM_ExhibitionToolPack/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimulairCorePack/Components/Sensors/GenericLaserScanner.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1hP3tCPeXxWmLjwEEn9iP1lbr5M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,6 +164,11 @@
       <workItem from="1602370379972" duration="28494000" />
       <workItem from="1602517384436" duration="3175000" />
       <workItem from="1602670611755" duration="12306000" />
+      <workItem from="1602776864097" duration="606000" />
+      <workItem from="1603306008498" duration="4091000" />
+      <workItem from="1603361599259" duration="18682000" />
+      <workItem from="1603437487804" duration="25660000" />
+      <workItem from="1603490596948" duration="5479000" />
     </task>
     <servers />
   </component>
@@ -173,6 +201,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="67" y="225" width="1653" height="855" key="VCS.FileHistoryDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1601044435854" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603448533167">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603448533167" />
     <state x="521" y="265" width="934" height="575" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602351906984">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -181,10 +213,11 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="605" y="161" width="776" height="783" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602347516496" />
-    <state x="624" y="246" key="run.anything.popup" timestamp="1602386392554">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="669" y="246" key="run.anything.popup" timestamp="1603367610328">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="624" y="246" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602386392554" />
+    <state x="669" y="246" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1603367610328" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601473045611">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

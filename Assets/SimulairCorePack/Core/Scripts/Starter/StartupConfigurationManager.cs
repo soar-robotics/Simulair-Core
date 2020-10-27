@@ -21,7 +21,7 @@ namespace SimulairCorePack
     public class StartupConfigurationManager : MonoBehaviour
     {
         public FMSocketIOManager socketManager;
-        public junkscript js;
+        //public junkscript js;
         private InitializationMode _mode = InitializationMode.DEFAULT;
 
         private string[] args;
@@ -58,19 +58,19 @@ namespace SimulairCorePack
             catch (Exception e)
             {
                 handleError();
-                js.printLine(e.Message + " " + e.Source + " " + e.Data + " " + e.StackTrace + " " );
+                //js.printLine(e.Message + " " + e.Source + " " + e.Data + " " + e.StackTrace + " " );
             }
 
         }
 
         private void Init()
         {
-            js = junkscript.instance;
+            //js = junkscript.instance;
             handles = new Dictionary<string, Action<string>>();
             string[] args = Environment.GetCommandLineArgs().Where((v, idx) => idx != 0).ToArray();
             if (args.Length == 0)
             {
-                js.printLine("configuration is handled in default mode(no configuration).");
+                //js.printLine("configuration is handled in default mode(no configuration).");
                 return;
             }
             else
@@ -82,7 +82,7 @@ namespace SimulairCorePack
                     {
                         _mode = InitializationMode.JSON;
                         this.args = args.Where((v, idx) => idx != 0).ToArray();
-                        js.printLine("configuration is handled in Json mode.");
+                        //js.printLine("configuration is handled in Json mode.");
                         initialized = true;
                     }
                     else
@@ -94,7 +94,7 @@ namespace SimulairCorePack
                 {
                     _mode = InitializationMode.SINGLE;
                     this.args = args;
-                    js.printLine("configuration is handled in Single mode.");
+                    //js.printLine("configuration is handled in Single mode.");
                     initialized = true;
                 }
             }
@@ -139,7 +139,7 @@ namespace SimulairCorePack
             foreach (var v in args)
             {
                 (string key, string val) = parseArg(v);
-                js.printLine("key: " + key +" val: " + val);
+                //js.printLine("key: " + key +" val: " + val);
                 On(key, val);
             }
         }
@@ -172,11 +172,11 @@ namespace SimulairCorePack
             if (handles.ContainsKey(param_name))
             {
                 handles[param_name].Invoke(param_value);
-                js.printLine("key found: " + param_name);
+                //js.printLine("key found: " + param_name);
             }
             else
             {
-                js.printLine("no such key: " + param_name);
+                //js.printLine("no such key: " + param_name);
             }
 
         }
@@ -195,13 +195,13 @@ namespace SimulairCorePack
         private void setSocketIP(string IP)
         {
             socketManager.Action_SetIP(IP);
-            js.printLine("Socket IP is set to " + IP);
+            //js.printLine("Socket IP is set to " + IP);
         }
 
         private void setSocketPort(string Port)
         {
             socketManager.Action_SetPort(Port);
-            js.printLine("Socket PORT is set to " + Port);
+            //js.printLine("Socket PORT is set to " + Port);
         }
         
     }

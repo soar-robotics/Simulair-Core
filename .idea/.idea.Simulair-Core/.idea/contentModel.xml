@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DummyRobotSpawner.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="ROS" t="Include">
             <e p="BuildRos.cs" t="Include" />
@@ -270,8 +271,16 @@
           </e>
           <e p="Core" t="Include">
             <e p="Scripts" t="Include">
+              <e p="Identifiers" t="Include">
+                <e p="RobotIdentifier.cs" t="Include" />
+              </e>
+              <e p="Managers" t="Include">
+                <e p="RobotManager.cs" t="Include" />
+              </e>
               <e p="ROS" t="Include">
+                <e p="OdomPublisher.cs" t="Include" />
                 <e p="SimulairStatePublisher.cs" t="Include" />
+                <e p="TfPublisher.cs" t="Include" />
               </e>
               <e p="Starter" t="Include">
                 <e p="InitializationParams.cs" t="Include" />

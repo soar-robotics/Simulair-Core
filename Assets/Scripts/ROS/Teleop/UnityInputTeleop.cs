@@ -25,7 +25,7 @@ public class UnityInputTeleop : MonoBehaviourRosNode
 
     private Publisher<geometry_msgs.msg.Twist> cmdVelPublisher;
     private geometry_msgs.msg.Twist cmdVelMsg;
-
+    
     protected override void StartRos()
     {
         cmdVelPublisher = node.CreatePublisher<geometry_msgs.msg.Twist>(CommandVelocityTopic);
@@ -41,7 +41,7 @@ public class UnityInputTeleop : MonoBehaviourRosNode
             yield return new WaitForSeconds(1.0f / PublishingFrequency);
         }
     }
-
+    
     private void Update()
     {
         if (!Input.GetMouseButton(1))

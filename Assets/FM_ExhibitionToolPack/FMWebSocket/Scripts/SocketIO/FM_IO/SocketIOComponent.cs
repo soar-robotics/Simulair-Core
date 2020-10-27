@@ -128,7 +128,7 @@ namespace FMSocketIO
         {
             if (!DebugMode) return;
             Debug.Log("FMLog: " + _value);
-            js.printLine("FMLog: " + _value);
+            //js.printLine("FMLog: " + _value);
         }
 
         public void Awake()
